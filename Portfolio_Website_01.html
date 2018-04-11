@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang=en>
+  <!-- The head of my website gives specifications about the set of characters,
+  it includes the title of my page and the links to my stlyesheets. -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <title>Portfolio Daniela Küster</title>
+    <!-- Add fontawesome-script to use fontawesome SVG icons on the website. -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <!-- The main CSS-file. -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- The CSS-file with the responsive design. -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"
+  </head>
+
+  <!-- The body will include the following different parts:
+  1. a header with a logo
+  2. a body with ...
+    1) a hero-image
+    2) a "featured work" section: thumbnails/links to my Codepen/GitHub Account
+  3. a footer with links to my (very few) social media accounts (GitHub, Codepen,
+  freeCodeCamp, LinkedIn, Xing)
+  4. Maybe, but only **maybe** a navigation bar.
+  5. A little "about"-section with text and an SVG-avatar.
+  *** I am not sure whether I'll also include placeholder links/dead links
+  to Twitter and Facebook. I don't have any business profiles there yet. ***
+  -->
+  <body>
+
+    <!-- The header of my website: SVG-logo in Udacity-blue on the left;
+    name and front-end-ninja-description in uppercase letters on the right. -->
+    <header class="header">
+      <div class="header__inner">
+        <i class="fas fa-paw fa-10x logo__catpaw"></i>
+        <h1 class="header__title">Daniela Küster</h1>
+        <h2>Front End Ninja</h2>
+      </div>
+    </header>
+
+    <!-- The main part of the website (between the header and the footer) -->
+    <main>
+      <section class="content">
+        <!-- The big hero-image should be an eye-catcher. -->
+        <section class="hero">
+          <!-- Insert hero-image here. Maybe add a <h2>-element with a little
+          heading and a <p> that describes me a bit more. -->
+
+          <img src="img/Web_Development.jpeg" alt="Photo with a laptop, a notebook and a book about HTML and CSS">
+        </section>
+
+        <section class="featured__works">
+          <h1 class="featured__title">Featured Work</h1>
+          <ul>
+            <li class="featured__item">
+              <img clas="featured__image" src="img/Teach_Cubes.jpeg" alt="Alphabet Cubes forming the word 'TEACH'">
+              <h2 class="featured__heading"></h1>
+              <a href="#" class="featured__link"></a>
+              <p class="featured__description">I am a language teacher (English, French and "German as a foreign language") in adult education. I love teaching and I am always on the lookout for new methods that make learning fun!</p>
+            </li>
+            <li class="featured__item">
+              <img clas="featured__image" src="img/School_Books.jpg" alt="Notebooks, a red apple, chalk and scissors on a table in front of a blackboard">
+              <h2 class="featured__heading"></h1>
+              <a href="#" class="featured__link"></a>
+              <p class="featured__description">Apart from teaching, learning and personal development are vital parts of my life. Whenever I have the time to do so, I am striving to learn new things (for example with the help of Udacity's Front End NanoDegree). This applies to all areas of my life, not just my professional life. I really enjoy to discover my true potential!</p>
+            </li>
+            <li class="featured__item">
+              <img clas="featured__image" src="img/Dictionary_Learning.jpeg" alt="Dictionary showing a definition of the word 'dictionary'">
+              <h2 class="featured__heading"></h1>
+              <a href="#" class="featured__link"></a>
+              <p class="featured__description">Languages and language learning are a part of my life since many years. I am a native speaker of German, but I improved my English and French at university. In my free time, I'm always learning new languages (at the moment, it's Italian). Sometimes I make jokes about learning to program: Actually I'm just doing what was always doing. I'm learning new languages. This time, they are not natural but formal languages like HTML5, CSS3 and JavaScript and they are a bit more logical than most of the natural languages. That is the only difference. ;-)</p>
+            </li>
+          </ul>
+        </section>
+
+      </section>
+    </main>
+
+  </body>
+</html>
