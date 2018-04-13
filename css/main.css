@@ -10,13 +10,18 @@
   width: 80%;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .featured__item {
   box-sizing: content-box;
   list-style: none outside;
-  list-style-position: inside;
-  padding: 0px 0px;
+  padding: 0;
+  margin-left: -40px;
 }
 
 .featured__image {
-  width: 50%;
+  width: 80%;
 }
