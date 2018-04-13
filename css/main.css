@@ -43,4 +43,24 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .box__item1, .box__item2, .box__item3 {
+    width: 33.333333%;
+  }
+
+  .box__item1 {
+    order: -1;
+  }
+
+  .box__item2 {
+    order: 1;
+  }
+
+  .box__item3 {
+    order: 3;
+  }
 }
