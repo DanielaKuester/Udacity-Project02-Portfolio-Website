@@ -22,6 +22,8 @@
   margin-left: -40px;
 }
 
-.featured__image {
+.featured__image,
+.featured__description {
   width: 80%;
+  text-align: justify;
 }
