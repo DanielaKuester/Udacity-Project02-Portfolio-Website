@@ -13,9 +13,10 @@
   width: 100%;
 }
 
-.container {
+.featured__container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .featured__item {
@@ -44,12 +45,17 @@
     margin-right: auto;
   }
 
-  .container {
+  .featured__container {
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .featured__description {
+    text-align: justify;
   }
 
   .box__item1, .box__item2, .box__item3 {
-    width: 33.333333%;
+    width: 30%;
   }
 
   .box__item1 {
