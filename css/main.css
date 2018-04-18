@@ -7,10 +7,20 @@
 
 .header__title {
   font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+.header__subtitle {
+  font-size: 2em;
 }
 
 .hero__image {
   width: 100%;
+}
+
+.featured__title {
+  color: #7d97ad;
+  font-size: 26px;
 }
 
 .featured__container {
@@ -24,6 +34,11 @@
   list-style: none outside;
   margin-left: -40px;
   text-align: justify;
+}
+
+.featured__heading {
+  text-transform: uppercase;
+  font-size: 26px;
 }
 
 .featured__image {
