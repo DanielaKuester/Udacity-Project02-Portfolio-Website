@@ -50,6 +50,10 @@
   width: 100%;
 }
 
+.fab {
+  color: black;
+}
+
 @media screen and (max-width: 667px) {
   .body {
     width: 90%;
