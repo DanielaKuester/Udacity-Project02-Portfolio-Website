@@ -19,7 +19,8 @@
 }
 
 .featured__title,
-.aboutme__title {
+.aboutme__title,
+.contactme__title {
   color: #7d97ad;
   font-size: 26px;
 }
