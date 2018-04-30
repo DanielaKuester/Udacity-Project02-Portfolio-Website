@@ -65,7 +65,8 @@
   list-style: none outside;
 }
 
-@media screen and (max-width: 667px) {
+/* Make site responsive to Google Nexus 5 (360px width) and slightly bigger screens */
+@media screen and (max-width: 767px) {
   .body {
     width: 90%;
     margin-left: 5%;
@@ -73,6 +74,16 @@
   }
 }
 
+/* Make site responsive to iPad */
+@media screen and (min-width: 768px) and (max-width:849px) {
+  .body {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Make site responsive to bigger screens */
 @media screen and (min-width: 850px) {
   .body {
     max-width: 80%;
@@ -93,7 +104,7 @@
 
   .box__item1, .box__item2, .box__item3,
   .aboutme__box1, .aboutme__box2, .aboutme__box3 {
-    width: 30%;
+    width: 29%;
   }
 
   .box__item1,
