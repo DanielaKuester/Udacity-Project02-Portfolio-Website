@@ -90,6 +90,8 @@
 
 .social__media {
   list-style: none outside;
+  padding: 0 -40px;
+  margin: 0 -40px;
 }
 
 /* Make site responsive to Google Nexus 5 (360px width) and slightly bigger screens */
