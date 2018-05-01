@@ -17,6 +17,12 @@
   margin-top: auto;
 }
 
+.separator {
+  height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #7d97ad inset;
+}
+
 #separator1 {
   clear: both;
 }
