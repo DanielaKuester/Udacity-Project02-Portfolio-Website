@@ -6,6 +6,28 @@
   vertical-align: center;
 }
 
+.header__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__item1 {
+  oder: -1;
+  /*flex-direction: row; */
+  align-self: flex-start;
+}
+
+.header__item2 {
+  order: 0;
+}
+
+.header__item3 {
+  order: 1;
+}
+
 .header__title {
   font-family: 'Lobster', cursive;
   font-size: 3em;
