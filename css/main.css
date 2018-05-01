@@ -17,6 +17,9 @@
   margin-top: auto;
 }
 
+#separator1 {
+  clear: both;
+}
 
 .header__title {
   font-family: 'Lobster', cursive;
