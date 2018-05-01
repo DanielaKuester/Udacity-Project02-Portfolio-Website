@@ -6,27 +6,17 @@
   vertical-align: center;
 }
 
-.header__container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+.logo__code {
+  float: left;
 }
 
-.header__item1 {
-  oder: -1;
-  /*flex-direction: row; */
-  align-self: flex-start;
+.header__titles__list {
+  float: right;
+  text-align: right;
+  list-style: none outside;
+  margin-top: auto;
 }
 
-.header__item2 {
-  order: 0;
-}
-
-.header__item3 {
-  order: 1;
-}
 
 .header__title {
   font-family: 'Lobster', cursive;
