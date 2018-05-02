@@ -29,11 +29,11 @@
 
 .header__title {
   font-family: 'Lobster', cursive;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .header__subtitle {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .hero__image {
@@ -115,7 +115,7 @@
 /* Make site responsive to bigger screens */
 @media screen and (min-width: 850px) {
   .body {
-    max-width: 80%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
