@@ -94,6 +94,10 @@
   margin: 0 -40px;
 }
 
+.social__media:hover {
+    opacity: 0.7;
+}
+
 /* Make site responsive to Google Nexus 5 (360px width) and slightly bigger screens */
 @media screen and (max-width: 767px) {
   .body {
