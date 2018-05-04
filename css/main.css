@@ -114,16 +114,32 @@
 }
 
 /* Make site responsive to iPad */
-@media screen and (min-width: 768px) and (max-width:849px) {
+@media screen and (min-width: 768px) and (max-width:1199px) {
   .body {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .featured__title,
+  .aboutme__title {
+    float: left;
+    width: 30%;
+  }
+
+  .featured__container,
+  .aboutme__container {
+    float: right;
+    width: 60%;
+    text-align: right;
+    list-style: none outside;
+    margin-top: auto;
+  }
+
 }
 
 /* Make site responsive to bigger screens */
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1200px) {
   .body {
     max-width: 60%;
     margin-left: auto;
