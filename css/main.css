@@ -114,7 +114,7 @@
 }
 
 /* Make site responsive to iPad */
-@media screen and (min-width: 768px) and (max-width:1199px) {
+@media screen and (min-width: 768px) and (max-width:1299px) {
   .body {
     width: 90%;
     margin-left: 5%;
@@ -124,22 +124,32 @@
   .featured__title,
   .aboutme__title {
     float: left;
-    width: 30%;
+    width: 100%;
   }
 
   .featured__container,
-  .aboutme__container {
-    float: right;
-    width: 60%;
-    text-align: right;
-    list-style: none outside;
-    margin-top: auto;
+  .aboutme__container,
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .box__item1, .box__item2, .box__item3,
+  .aboutme__box1, .aboutme__box2, .aboutme__box3 {
+    width: 45%;
+  }
+
+  .box__item1, .box__item3,
+  .aboutme__box1, .aboutme__box3 {
+    margin-right: 5%;
   }
 
 }
 
 /* Make site responsive to bigger screens */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   .body {
     max-width: 60%;
     margin-left: auto;
