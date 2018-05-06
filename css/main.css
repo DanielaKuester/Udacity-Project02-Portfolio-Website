@@ -59,10 +59,6 @@
   justify-content: space-between;
 }
 
-.footer__container {
-  width: 40%;
-}
-
 .featured__item,
 .aboutme__item {
   box-sizing: content-box;
@@ -114,12 +110,16 @@
   }
 }
 
+.footer__container {
+  width: 70%;
+}
+
 /* Make site responsive to iPad */
 @media screen and (min-width: 501px) and (max-width:1299px) {
   .body {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
 
   .hero__title,
@@ -138,14 +138,13 @@
     justify-content: space-between;
   }
 
-  .box__item1, .box__item2, .box__item3,
-  .aboutme__box1, .aboutme__box2, .aboutme__box3 {
-    width: 45%;
+  .footer__container {
+    width: 70%;
   }
 
-  .box__item1, .box__item3,
-  .aboutme__box1, .aboutme__box3 {
-    margin-right: 5%;
+  .box__item1, .box__item2, .box__item3,
+  .aboutme__box1, .aboutme__box2, .aboutme__box3 {
+    width: 50%;
   }
 
 }
@@ -171,7 +170,7 @@
 
   .box__item1, .box__item2, .box__item3,
   .aboutme__box1, .aboutme__box2, .aboutme__box3 {
-    width: 29%;
+    width: 33.3333%;
   }
 
   .box__item1,
