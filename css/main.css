@@ -23,6 +23,8 @@
 	box-shadow: 0 10px 10px -10px #7d97ad inset;
 }
 
+/* The "clear: both;" makes sure that the separator does not stick to the top
+margin of the website and that there is a margin to the left and right */
 #separator1 {
   clear: both;
 }
@@ -59,6 +61,10 @@
   justify-content: space-between;
 }
 
+/* The CSS validator shows me here that negative values are not acceptable. If
+I don't choose a negative value, the text won't align to the left margin because
+of the invisible (but existing!) bullet point from the <li>-elements. How can I
+solve this problem without a negative value?!?*/
 .featured__item,
 .aboutme__item {
   box-sizing: content-box;
@@ -91,6 +97,8 @@
   color: #2d3c49;
 }
 
+/* HELP! Same problem as above. How can I align the <li>-element to the left
+margin without using a negative value?!?*/
 .social__media {
   list-style: none outside;
   padding: 0 -40px;
@@ -114,7 +122,7 @@
   width: 70%;
 }
 
-/* Make site responsive to iPad */
+/* Make site responsive to iPad, iPad Pro and other tablets */
 @media screen and (min-width: 501px) and (max-width:1299px) {
   .body {
     width: 95%;
@@ -149,7 +157,7 @@
 
 }
 
-/* Make site responsive to bigger screens */
+/* Make site responsive to big screens (laptops or desktop monitors) */
 @media screen and (min-width: 1300px) {
   .body {
     max-width: 60%;

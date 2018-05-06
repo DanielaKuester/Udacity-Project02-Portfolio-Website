@@ -4,8 +4,12 @@
   it includes the title of my page and the links to my stlyesheets. -->
   <head>
     <meta charset="utf-8">
+    <!-- Make website compatible to Internet Explorer-->
     <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <!-- The title that shows in the browser Tab. -->
     <title>Portfolio Daniela Küster</title>
+    <!-- Add <meta viewport> to make website fully responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Add fontawesome-script to use fontawesome SVG icons on the website.-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <!-- The main CSS-file. -->
@@ -14,21 +18,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <!-- Add Google Font Quicksand -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <!-- Add <meta viewport> to make website fully responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <!-- The body will include the following different parts:
-  1. a header with a logo
-  2. a body with ...
-    1) a hero-image
-    2) a "featured work" section: thumbnails/links to my Codepen/GitHub Account
-  3. a footer with links to my (very few) social media accounts (GitHub, Codepen,
-  freeCodeCamp, LinkedIn, Xing)
-  4. Maybe, but only **maybe** a navigation bar.
-  5. A little "about"-section with text and an SVG-avatar.
-  *** I am not sure whether I'll also include placeholder links/dead links
-  to Twitter and Facebook. I don't have any business profiles there yet. ***
+  <!-- Different things to add in the future:
+  1. A navigation bar.
+  2. Maybe a profile picture in the "about"-section
   -->
   <body class="body">
 
@@ -60,7 +54,9 @@
       <!-- My works on GitHub and Codepen.io; my Udacity projects -->
       <article class="featured__works">
         <h2 class="featured__title">Featured Work</h2>
+        <!-- The container to apply flexbox -->
         <ul class="featured__container">
+          <!-- The <li>-elements form the flexboxes -->
           <li class="featured__item box__item1">
             <a target="_blank" href="https://codepen.io/danielakuester/full/bMWZqp/" class="featured__link">
               <img class="featured__image" src="img/mockup_to_article.jpg" alt="Go board with Udacity logo">
@@ -98,6 +94,7 @@
         </ul>
       </article>
 
+      <!-- The "About Me"-section functions like the "Featured Works"-section -->
       <article class="aboutme">
         <h2 class="aboutme__title">About Me</h2>
         <ul class="aboutme__container">
@@ -139,8 +136,8 @@
 
     <hr class="separator" id="separator2">
 
-    <!-- The footer of the website will hopefully include links to my
-    career network accounts: LinkedIn, Xing, Twitter, GitHub and Codepen -->
+    <!-- The footer of the includes links to my career related accounts: 
+    LinkedIn, Xing, Twitter, GitHub, Codepen and freeCodeCamp. -->
     <footer>
       <section class="footer">
         <h2 class="contactme__title">Contact Me</h2>
