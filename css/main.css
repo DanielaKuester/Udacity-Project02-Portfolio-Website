@@ -1,24 +1,24 @@
 .body {
-  font-family: 'Quicksand', sans-serif;
-  color: #2d3c49;
-  width: 100%;
-  height: 100%;
-  vertical-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #2d3c49;
+	width: 100%;
+	height: 100%;
+	vertical-align: center;
 }
 
 .logo__code {
-  float: left;
+	float: left;
 }
 
 .header__titles__list {
-  float: right;
-  text-align: right;
-  list-style: none outside;
-  margin-top: auto;
+	float: right;
+	text-align: right;
+	list-style: none outside;
+	margin-top: auto;
 }
 
 .separator {
-  height: 10px;
+	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #7d97ad inset;
 }
@@ -26,39 +26,39 @@
 /* The "clear: both;" makes sure that the separator does not stick to the top
 margin of the website and that there is a margin to the left and right */
 #separator1 {
-  clear: both;
+	clear: both;
 }
 
 .header__title {
-  font-family: 'Lobster', cursive;
-  font-size: 2em;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
 }
 
 .header__subtitle {
-  font-size: 1.5em;
-  text-transform: uppercase;
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 .hero__image {
-  padding-top: 2em;
-  width: 100%;
+	padding-top: 2em;
+	width: 100%;
 }
 
 .hero__title,
 .featured__title,
 .aboutme__title,
 .contactme__title {
-  color: #7d97ad;
-  font-size: 26px;
+	color: #7d97ad;
+	font-size: 26px;
 }
 
 .featured__container,
 .aboutme__container,
 .footer__container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 /* The CSS validator shows me here that negative values are not acceptable. If
@@ -67,132 +67,132 @@ of the invisible (but existing!) bullet point from the <li>-elements. How can I
 solve this problem without a negative value?!?*/
 .featured__item,
 .aboutme__item {
-  box-sizing: content-box;
-  list-style: none outside;
-  margin-left: -40px;
-  text-align: justify;
+	box-sizing: content-box;
+	list-style: none outside;
+	margin-left: -40px;
+	text-align: justify;
 }
 
 .featured__heading,
 .aboutme__heading {
-  text-transform: uppercase;
-  font-size: 26px;
+	text-transform: uppercase;
+	font-size: 26px;
 }
 
 .featured__image,
 .aboutme__image {
-  width: 100%;
+	width: 100%;
 }
 
 .featured__image:hover,
 .aboutme__image:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 .fas {
-  color: #02b3e4;
+	color: #02b3e4;
 }
 
 .fab {
-  color: #2d3c49;
+	color: #2d3c49;
 }
 
 /* HELP! Same problem as above. How can I align the <li>-element to the left
 margin without using a negative value?!?*/
 .social__media {
-  list-style: none outside;
-  padding: 0 -40px;
-  margin: 0 -40px;
+	list-style: none outside;
+	padding: 0 -40px;
+	margin: 0 -40px;
 }
 
 .social__media:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 /* Make site responsive to Google Nexus 5 (360px width) and slightly bigger screens */
 @media screen and (max-width: 500px) {
-  .body {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+	.body {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
 
 .footer__container {
-  width: 70%;
+	width: 70%;
 }
 
 /* Make site responsive to iPad, iPad Pro and other tablets */
 @media screen and (min-width: 501px) and (max-width:1299px) {
-  .body {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-  }
+	.body {
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
 
-  .hero__title,
-  .featured__title,
-  .aboutme__title {
-    float: left;
-    width: 100%;
-  }
+	.hero__title,
+	.featured__title,
+	.aboutme__title {
+		float: left;
+		width: 100%;
+	}
 
-  .featured__container,
-  .aboutme__container,
-  .footer__container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+	.featured__container,
+	.aboutme__container,
+	.footer__container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-  .footer__container {
-    width: 70%;
-  }
+	.footer__container {
+		width: 70%;
+	}
 
-  .box__item1, .box__item2, .box__item3,
-  .aboutme__box1, .aboutme__box2, .aboutme__box3 {
-    width: 50%;
-  }
+	.box__item1, .box__item2, .box__item3,
+	.aboutme__box1, .aboutme__box2, .aboutme__box3 {
+		width: 50%;
+	}
 
 }
 
 /* Make site responsive to big screens (laptops or desktop monitors) */
 @media screen and (min-width: 1300px) {
-  .body {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.body {
+		max-width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .featured__container,
-  .aboutme__container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+	.featured__container,
+	.aboutme__container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-  .featured__description,
-  .aboutme__description {
-    text-align: justify;
-  }
+	.featured__description,
+	.aboutme__description {
+		text-align: justify;
+	}
 
-  .box__item1, .box__item2, .box__item3,
-  .aboutme__box1, .aboutme__box2, .aboutme__box3 {
-    width: 33.3333%;
-  }
+	.box__item1, .box__item2, .box__item3,
+	.aboutme__box1, .aboutme__box2, .aboutme__box3 {
+		width: 33.3333%;
+	}
 
-  .box__item1,
-  .aboutme__box1 {
-    order: -1;
-  }
+	.box__item1,
+	.aboutme__box1 {
+		order: -1;
+	}
 
-  .box__item2,
-  .aboutme__box2 {
-    order: 1;
-  }
+	.box__item2,
+	.aboutme__box2 {
+		order: 1;
+	}
 
-  .box__item3,
-  .aboutme__box3 {
-    order: 3;
-  }
+	.box__item3,
+	.aboutme__box3 {
+		order: 3;
+	}
 }
