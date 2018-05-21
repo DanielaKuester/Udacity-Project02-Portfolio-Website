@@ -109,7 +109,7 @@ margin without using a negative value?!?*/
 	}
 }
 
-.footer__container {
+#footer__container {
 	width: 70%;
 }
 
@@ -121,23 +121,19 @@ margin without using a negative value?!?*/
 		margin-right: 2.5%;
 	}
 
-	.hero__title,
-	.featured__title,
-	.aboutme__title {
+	.title {
 		float: left;
 		width: 100%;
 	}
 
-	.featured__container,
-	.aboutme__container,
-	.footer__container {
+	.container {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: space-between;
 	}
 
-	.footer__container {
+	#footer__container {
 		width: 70%;
 	}
 
@@ -156,8 +152,7 @@ margin without using a negative value?!?*/
 		margin-right: auto;
 	}
 
-	.featured__container,
-	.aboutme__container {
+	.container {
 		flex-direction: row;
 		justify-content: space-between;
 	}
