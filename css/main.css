@@ -69,13 +69,11 @@ solve this problem without a negative value?!?*/
 	font-size: 26px;
 }
 
-.featured__image,
-.aboutme__image {
+.image {
 	width: 100%;
 }
 
-.featured__image:hover,
-.aboutme__image:hover {
+.image:hover {
 	opacity: 0.7;
 }
 
