@@ -153,8 +153,7 @@ margin without using a negative value?!?*/
 		justify-content: space-between;
 	}
 
-	.featured__description,
-	.aboutme__description {
+	.description {
 		text-align: justify;
 	}
 
