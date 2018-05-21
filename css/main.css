@@ -134,8 +134,7 @@ margin without using a negative value?!?*/
 		width: 70%;
 	}
 
-	.box__item1, .box__item2, .box__item3,
-	.aboutme__box1, .aboutme__box2, .aboutme__box3 {
+	.box {
 		width: 50%;
 	}
 
@@ -159,7 +158,6 @@ margin without using a negative value?!?*/
 		text-align: justify;
 	}
 
-	.box__item1, .box__item2, .box__item3,
-	.aboutme__box1, .aboutme__box2, .aboutme__box3 {
+	.box {
 		width: 33.3333%;
 	}
