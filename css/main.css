@@ -163,21 +163,3 @@ margin without using a negative value?!?*/
 	.aboutme__box1, .aboutme__box2, .aboutme__box3 {
 		width: 33.3333%;
 	}
-
-/*
-	.box__item1,
-	.aboutme__box1 {
-		order: -1;
-	}
-
-	.box__item2,
-	.aboutme__box2 {
-		order: 1;
-	}
-
-	.box__item3,
-	.aboutme__box3 {
-		order: 3;
-	}
-}
-*/
