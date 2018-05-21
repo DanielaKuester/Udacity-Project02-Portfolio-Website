@@ -6,7 +6,7 @@
 	vertical-align: center;
 }
 
-.logo__code {
+#logo__code {
 	float: left;
 }
 
@@ -26,17 +26,17 @@ margin of the website and that there is a margin to the left and right */
 	clear: both;
 }
 
-.header__title {
+#header__title {
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 }
 
-.header__subtitle {
+#header__subtitle {
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
 
-.hero__image {
+#hero__image {
 	padding-top: 2em;
 	width: 100%;
 }
