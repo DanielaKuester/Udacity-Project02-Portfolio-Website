@@ -41,10 +41,7 @@ margin of the website and that there is a margin to the left and right */
 	width: 100%;
 }
 
-.hero__title,
-.featured__title,
-.aboutme__title,
-.contactme__title {
+.title {
 	color: #7d97ad;
 	font-size: 26px;
 }
