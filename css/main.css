@@ -57,7 +57,7 @@ margin of the website and that there is a margin to the left and right */
 I don't choose a negative value, the text won't align to the left margin because
 of the invisible (but existing!) bullet point from the <li>-elements. How can I
 solve this problem without a negative value?!?*/
-.item {
+.box {
 	box-sizing: content-box;
 	list-style: none outside;
 	margin-left: -40px;
