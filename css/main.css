@@ -46,9 +46,7 @@ margin of the website and that there is a margin to the left and right */
 	font-size: 26px;
 }
 
-.featured__container,
-.aboutme__container,
-.footer__container {
+.container {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
