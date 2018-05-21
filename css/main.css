@@ -17,15 +17,12 @@
 	margin-top: auto;
 }
 
+/* The "clear: both;" makes sure that the separator does not stick to the top
+margin of the website and that there is a margin to the left and right */
 .separator {
 	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #7d97ad inset;
-}
-
-/* The "clear: both;" makes sure that the separator does not stick to the top
-margin of the website and that there is a margin to the left and right */
-#separator1 {
 	clear: both;
 }
 
